@@ -105,11 +105,16 @@ xai-covid-cxr-tabular-image/
 │   ├── methodology.md
 │   └── project_summary.md
 │
-├── assets/
-│   ├── figures/
-│   └── gradcam_examples/
-│
-└── models/
+└── assets/
+    └── figures/
+        ├── project_workflow.png
+	├── class_distribution.png
+	├── manual_artifact_annotation_summary.png
+	├── metadata_missing_values.png
+	├── random_forest_feature_importance.png
+	├── shap_feature_impact.png
+	└── top_diagnostic_findings.png
+
 ```
 
 ---
@@ -206,7 +211,7 @@ This project has several important limitations:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/xai-covid-cxr-tabular-image.git
+git clone https://github.com/JuanMallodelaCalle/xai-covid-cxr-tabular-image.git
 cd xai-covid-cxr-tabular-image
 ```
 
@@ -260,6 +265,12 @@ This repository is a curated portfolio version maintained by **Juan Mallo de la 
 
 - Cohen, J. P., Morrison, P., Dao, L., Roth, K., Duong, T. Q., & Ghassemi, M. **COVID-19 Image Data Collection**. <https://github.com/ieee8023/covid-chestxray-dataset>
 - TorchXRayVision. <https://github.com/mlmed/torchxrayvision>
+
+---
+
+## License Scope
+
+The MIT license in this repository applies only to the code, documentation, and derived project materials included here. It does not apply to the external COVID-19 Chest X-ray Dataset or to any medical images downloaded from third-party sources. Users must review and comply with the original dataset licenses before using or redistributing any external data.
 
 ---
 
