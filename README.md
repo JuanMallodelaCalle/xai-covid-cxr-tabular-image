@@ -108,9 +108,9 @@ xai-covid-cxr-tabular-image/
 └── assets/
     └── figures/
         ├── project_workflow.png
-	├── class_distribution.png
-	├── manual_artifact_annotation_summary.png
-	├── metadata_missing_values.png
+        ├── class_distribution.png
+        ├── manual_artifact_annotation_summary.png
+        ├── metadata_missing_values.png
 	├── random_forest_feature_importance.png
 	├── shap_feature_impact.png
 	└── top_diagnostic_findings.png
