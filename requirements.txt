@@ -1,0 +1,31 @@
+# Core data stack
+numpy
+pandas
+matplotlib
+seaborn
+
+# Image processing
+opencv-python
+Pillow
+
+# NLP / text processing
+nltk
+wordcloud
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Explainability
+shap
+lime
+
+# Deep learning
+torch
+torchvision
+torchcam
+torchxrayvision
+
+# Notebook environment
+jupyter
+ipykernel

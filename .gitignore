@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local datasets: do not commit original medical images or downloaded datasets
+data/covid-chestxray-dataset/
+data/**/images/
+data/**/images_preproc/
+data/**/*.dcm
+data/**/*.nii
+data/**/*.nii.gz
+
+# Model checkpoints and generated heavy files
+models/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Outputs generated locally
+outputs/
+runs/
+wandb/
+mlruns/
+
+# Temporary files
+*.tmp
+*.log
