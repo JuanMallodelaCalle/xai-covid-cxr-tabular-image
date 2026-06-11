@@ -170,7 +170,7 @@ The project also reviewed external open-source models and libraries for thoracic
 
 ## Selected Visual Outputs
 
-The repository can include selected non-sensitive visual outputs under `assets/figures/`, such as:
+The repository can include selected non-sensitive visual outputs under `figures/`, such as:
 
 - diagnostic label distribution;
 - metadata missing-value analysis;
