@@ -72,7 +72,7 @@ If needed, adjust paths in the notebook depending on where you place the dataset
 
 The project follows a bias-aware explainable AI pipeline for COVID-19 chest X-ray analysis. It combines metadata preprocessing, exploratory data analysis, custom baseline models, pretrained model review, and interpretability methods for both tabular and image data.
 
-![Project workflow](assets/figures/project_workflow.png)
+![Project workflow](figures/project_workflow.png)
 
 The workflow is organized into two main branches:
 
